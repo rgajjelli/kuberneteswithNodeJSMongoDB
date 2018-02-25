@@ -1,5 +1,5 @@
 webui:
-    image: gajjelli/nodejs-emp:latest
+    image: gajjelli/nodejswebuimongodb-employee:latest
     container_name: employee
     ports:
         - 8888
