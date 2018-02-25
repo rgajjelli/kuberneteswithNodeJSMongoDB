@@ -11,7 +11,7 @@ var url = 'mongodb://'+mongo_host+':'+mongo_port+'/employee';
 function createHomePage(req,res){
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	res.write("<html>");
-	res.write("<body style='background-color:lightyellow;'> ");
+	res.write("<body style='background-color:powderblue;'> ");
 	res.write("<center>");
 	res.write("<form name='DisplayForm' method='POST' >");
 	res.write("<legend><center><h1>DevOps World - Employee Information.</h1></center></legend>");
@@ -30,7 +30,7 @@ function createHomePage(req,res){
 function addEmployeeForm(req,res,data){
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	res.write("<html>");
-	res.write("<body style='background-color:lightyellow;'> ");
+	res.write("<body style='background-color:;'> ");
 	res.write("<center>");
 	res.write("<form method='POST' >");
 	res.write("<legend><h2><center> Add New Employee </center></h2></legend>");
@@ -149,7 +149,7 @@ function addEmployeeForm(req,res,data){
 function getEmployeeForm(req,res,data){
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	res.write("<html>");
-	res.write("<body style='background-color:lightyellow;'> ");
+	res.write("<body style='background-color:powderblue;'> ");
 	res.write("<center>");
 	res.write("<form method='POST' >");
 	res.write("<legend><h1><center> Get Employee Information </center></h1></legend>");
@@ -222,7 +222,7 @@ function getEmployeeForm(req,res,data){
 function updateEmployeeForm(req,res,data){
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	res.write("<form method='POST'>");
-	res.write("<body style='background-color:lightyellow;'> ");
+	res.write("<body style='background-color:powderblue;'> ");
 	res.write("<center>");
 	res.write("<legend><h1> Update Employee </h1></legend>");
 	res.write("<table>");
@@ -294,7 +294,7 @@ function updateEmployeeForm(req,res,data){
 function deleteEmployeeForm(req,res,data){
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	res.write("<form name='ActionForm' method='POST'>");
-	res.write("<body style='background-color:lightyellow;'> ");
+	res.write("<body style='background-color:powderblue;'> ");
 	res.write("<center>");
 	res.write("<legend><h1> Delete Employee Information </h1></legend>");
 	// Key and value
