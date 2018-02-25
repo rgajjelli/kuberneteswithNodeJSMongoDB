@@ -1,0 +1,12 @@
+{
+  "name": "Employee",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "Employee application",
+  "scripts": {
+	"start": "node app.js"
+  },
+  "dependencies": {
+    "mongodb": "~2.0"
+  }
+}
