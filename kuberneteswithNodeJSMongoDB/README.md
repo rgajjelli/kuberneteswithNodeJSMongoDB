@@ -1,3 +1,4 @@
 # Employee Application for NodeJS & MongoDB
 
-docker-compose -f docker-compose.yml up &
+chmod a+rx docker.sh
+./docker.sh
